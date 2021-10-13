@@ -1,11 +1,11 @@
-const categoriesRef = document.querySelector('#categories');
+const categoriesEl = document.querySelector('#categories');
 console.log(
   'Number of categories:',
-  categoriesRef.querySelectorAll('.item').length,
+  categoriesEl.querySelectorAll('.item').length,
 );
 
-const itemRef = document.querySelectorAll('.item');
-itemRef.forEach(item => {
+const itemEl = document.querySelectorAll('.item');
+itemEl.forEach(item => {
   console.log('Category:', item.firstElementChild.textContent);
   console.log('Elements:', item.lastElementChild.children.length);
 });
