@@ -1,5 +1,5 @@
 const refs = {
-  form: document.querySelector('.login-form'),
+  form: document.querySelector('form.login-form'),
   email: document.querySelector('input[type="email"]'),
   password: document.querySelector('input[type="password"]'),
 };
